@@ -19,6 +19,7 @@ ul {
   z-index: 1;
   justify-content: center;
   display: flex;
+  background: rgba(0, 0, 0, 0.3);
 }
 
 li {
@@ -58,6 +59,7 @@ li a:hover {
     'portfolio studio about';
   gap: 10px;
 }
+
 .portfolio {
   grid-area: portfolio; 
   font-family: Copperplate; 
@@ -92,4 +94,72 @@ li a:hover {
   font-size: 15px; 
   color: white; 
   text-align: center;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 90%;
+  text-align: center;
+  color: white;
+  font-family: Copperplate;
+}
+
+.scenic {
+  min-width: 100px;
+  border: solid 2px white;
+  margin: 5px;
+  background: rgba(0, 0, 0, 0.3);
+  flex: 1;
+}
+.sPic {
+  height: 80px;
+  width: 80px;
+  background-color: white;
+  margin: 10px;
+}
+
+.portrait {
+  min-width: 100px;
+  border: solid 2px white;
+  margin: 5px;
+  background: rgba(0, 0, 0, 0.3);
+  flex: 1;
+}
+.pPic {
+  background-image: url("https://cdn-icons-png.flaticon.com/512/7022/7022927.png");
+  background-size: cover;
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+}
+
+.event {
+  min-width: 100px;
+  border: solid 2px white;
+  margin: 5px;
+  background: rgba(0, 0, 0, 0.3);
+  flex: 1;
+}
+.ePic {
+  height: 80px;
+  width: 80px;
+  background-color: white;
+  margin: 10px;
+}
+
+.spin2 {
+  height: 100px;
+  width: 100px;
+  border: 10px solid lightgray;
+  border-radius: 50%;
+  border-top-color: black;
+  animation: spin 1s linear infinite;
+  margin: auto;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
 }
