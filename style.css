@@ -69,6 +69,11 @@ li a:hover {
   margin: auto;
   border: solid 2px white;
   padding: 20px;}
+.portfolio:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.4);
+  border: none;
+  color: black;}
 .studio {
   grid-area: studio;
   font-family: Copperplate;
@@ -87,6 +92,11 @@ li a:hover {
   margin: auto;
   border: solid 2px white;
   padding: 20px;}
+.about:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.4);
+  border: none;
+  color: black;}
 
 .studio2 {
   grid-area: studio2;
