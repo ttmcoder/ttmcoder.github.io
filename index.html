@@ -3,33 +3,101 @@
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
-  <link type="text/css" rel="stylesheet" href="style.css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
 </head>
+
 <body>
-<ul>
-  <li><a class="active" href="#home">HOME</a></li>
-  <li><a href="#portfolio">portfolio</a></li>
-  <li><a href="#blog">blog</a></li>
-  <li><a href="#services">services</a></li>
-  <li><a href="#about">about</a></li>
-  <li><a href="#contact">contact</a></li>
-</ul>
+
+<div>
+  <!-- Facebook Icon -->
+  <a href="https://www.facebook.com/">
+    <i class="fab fa-facebook" style="position:absolute; right:1%; top:1.5%; font-size:25px; color:white;">facebook-square</i>
+  </a>
+  <!-- Instagram Icon -->
+  <a href="https://www.instagram.com/">
+    <i class="fab fa-instagram" style="position:absolute; right:5%; top:1.5%; font-size:25px; color:white;">instagram</i>
+  </a>
   
+<ul>
+  <li><a class="active" href="#home" onclick="showit('page1')">HOME</a></li>
+  <li><a href="#portfolio" onclick="showit('page2')">portfolio</a></li>
+  <li><a href="#blog" onclick="showit('page3')">blog</a></li>
+  <li><a href="#services" onclick="showit('page4')">services</a></li>
+  <li><a href="#about" onclick="showit('page5')">about</a></li>
+  <li><a href="#contact" onclick="showit('page6')">contact</a></li>
+</ul>
+
+</div>
+
 <div class="background"></div>
 
+<div id="page1" style="display:inline">
 <div class="title">
   <div class="portfolio">Portfolio</div>
   <div class="studio">IF Studios</div>
   <div class="about">About Me</div>
 </div>
-
-<div class="studio2">
-photography studio
+<div class="studio2">photography studio</div>
 </div>
 
-</body>
-</html>
+<div id="page2" style="display:none">
 
-  <script src="script.js"></script>
+<div class="gallery">
+
+  <div class="scenic">SCENIC
+    <div class="sPic"></div>
+    <div class="sPic"></div>
+    <div class="sPic"></div>
+    <div class="sPic"></div>
+    <div class="sPic"></div>
+    <div class="sPic"></div>
+  </div>
+
+  <div class="portrait">PORTRAIT
+    <div class="pPic"></div>
+    <div class="pPic"></div>
+    <div class="pPic"></div>
+    <div class="pPic"></div>
+    <div class="pPic"></div>
+    <div class="pPic"></div>
+  </div>
+  
+  <div class="event">EVENT
+    <div class="ePic"></div>
+    <div class="ePic"></div>
+    <div class="ePic"></div>
+    <div class="ePic"></div>
+    <div class="ePic"></div>
+    <div class="ePic"></div>
+  </div>
+
+</div>
+
+</div>
+
+<div id="page3" style="display:none">
+
+  <div class=spin2></div>
+
+</div>
+
+<div id="page4" style="display:none">
+
+  <div class=spin2></div>
+
+</div>
+
+<div id="page5" style="display:none">
+
+  <div class=spin2></div>
+
+</div>
+
+<div id="page6" style="display:none">
+
+  <div class=spin2></div>
+
+</div>
+
 </body>
 </html>
