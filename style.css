@@ -34,6 +34,7 @@ li a {
   padding: 15px 20px;
   text-decoration: none;
   font-family: Copperplate;
+  transition: 0.5s;
 }
 li a:hover {
   background-color: rgba(255, 255, 255, 0.4);
@@ -68,14 +69,13 @@ li a:hover {
   text-align: center;
   margin: auto;
   border: solid 2px white;
-  padding: 20px;
-}
+  padding: 20px;}
 .portfolio:hover {
   cursor: pointer;
   background-color: rgba(255, 255, 255, 0.4);
   border: none;
   color: black;
-}
+  transition: 0.5s;}
 .studio {
   grid-area: studio;
   font-family: Copperplate;
@@ -84,8 +84,7 @@ li a:hover {
   text-align: center;
   margin: auto;
   border: solid 2px white;
-  padding: 20px;
-}
+  padding: 20px;}
 .about {
   grid-area: about; 
   font-family: Copperplate; 
@@ -95,13 +94,12 @@ li a:hover {
   margin: auto;
   border: solid 2px white;
   padding: 20px;
-}
+  transition: 0.5s;}
 .about:hover {
   cursor: pointer;
   background-color: rgba(255, 255, 255, 0.4);
   border: none;
-  color: black;
-}
+  color: black;}
 
 .studio2 {
   grid-area: studio2;
@@ -177,4 +175,138 @@ li a:hover {
   to {
     transform: rotate(360deg);
   }
+}
+
+.aboutpage {
+  margin: auto;
+  margin-top: 15px;
+  height: 400px;
+  width: 93%;
+  border: solid 1px white;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+}
+.myportrait {
+  margin-right: 20px;
+  color: white;
+}
+.myportrait img {
+  width: 300px;
+  height: 400px;
+}
+
+.bounce {
+  width: 50px;
+  height: 50px;
+  margin-left: 50%;
+  background-color: black;
+  border-radius: 100%;
+  border: solid 3px white;
+  position: absolute;
+  animation: bounce 1.5s linear infinite;
+  animation-timing-function: ease-out;
+  animation-direction: normal;
+}
+@keyframes bounce {
+  0% {
+    top: 15%;
+    left: 0%;
+  }
+  20% {
+    top: 85%;
+    left: 0%;
+  }
+  40% {
+    top: 45%;
+    left: 0%;
+  }
+  60% {
+    top: 85%;
+    left: 0%;
+  }
+  80% {
+    top: 68%;
+    left: 0%;
+  }
+  100% {
+    top: 85%;
+    left: 0%;
+  }
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  grid-gap: 10px;
+  margin-left: 30%;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.blank {
+  background-color: gray;
+  border: solid black 3px;
+  transition: 0.5s;
+}
+
+.blank:hover {
+  cursor: pointer;
+}
+
+.used1 {
+  background-color: green;
+  border: solid white 3px;
+  pointer-events: none;
+  text-align: center;
+  font-size: 83px;
+}
+
+.used2 {
+  background-color: red;
+  border: solid white 3px;
+  pointer-events: none;
+  text-align: center;
+  font-size: 83px;
+}
+
+.shapes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.circle {
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  border-radius: 100%;
+  transition: 0.5s;
+  margin: 100px;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  border-radius: 0%;
+  transition: 0.5s;
+  margin: 100px;
+}
+
+.circle:hover {
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  border-radius: 0%;
+}
+
+.box:hover {
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  border-radius: 100%;
 }
