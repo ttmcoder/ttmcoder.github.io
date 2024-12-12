@@ -202,12 +202,12 @@ li a:hover {
 .aboutpage {
   margin: auto;
   margin-top: 15px;
-  height: 400px;
-  width: 93%;
+  height: 90%;
+  width: 90%;
   border: solid 1px white;
   padding: 10px;
   background: rgba(0, 0, 0, 0.3);
-  display: flex;
+  text-align: center;
 }
 .myportrait {
   margin-right: 20px;
