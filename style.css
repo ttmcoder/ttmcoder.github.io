@@ -177,6 +177,22 @@ li a:hover {
   }
 }
 
+.bpic1 {
+  border: solid 2px white;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.3);
+}
+.bpic2 {
+  border: solid 2px white;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.3);
+}
+.bpic3 {
+  border: solid 2px white;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
 .aboutpage {
   margin: auto;
   margin-top: 15px;
@@ -194,45 +210,6 @@ li a:hover {
 .myportrait img {
   width: 300px;
   height: 400px;
-}
-
-.bounce {
-  width: 50px;
-  height: 50px;
-  margin-left: 50%;
-  background-color: black;
-  border-radius: 100%;
-  border: solid 3px white;
-  position: absolute;
-  animation: bounce 1.5s linear infinite;
-  animation-timing-function: ease-out;
-  animation-direction: normal;
-}
-@keyframes bounce {
-  0% {
-    top: 15%;
-    left: 0%;
-  }
-  20% {
-    top: 85%;
-    left: 0%;
-  }
-  40% {
-    top: 45%;
-    left: 0%;
-  }
-  60% {
-    top: 85%;
-    left: 0%;
-  }
-  80% {
-    top: 68%;
-    left: 0%;
-  }
-  100% {
-    top: 85%;
-    left: 0%;
-  }
 }
 
 .parent {
